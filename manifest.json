@@ -1,0 +1,22 @@
+{
+  "name": "Stay Healthy",
+  "description": "This app tells you to take breaks to observe healthy practice while working on your pc",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "alert.png",
+    "32": "alert.png",
+    "48": "alert.png",
+    "128": "alert.png"
+  },
+  "permissions": ["alarms", "notifications", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "alert.png"
+  },
+  "author": "Yahaya Joseph",
+  "homepage_url": "https://github.com/mein22/stayhealthy"
+}
