@@ -4,7 +4,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "environment.js"
   },
   "icons": {
     "16": "alert.png",
@@ -18,5 +18,5 @@
     "default_icon": "alert.png"
   },
   "author": "Yahaya Joseph",
-  "homepage_url": "https://github.com/mein22/stayhealthy"
+  "homepage_url": "https://github.com/mein22/stayhealthy-extension"
 }
